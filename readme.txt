@@ -1,1 +1,1 @@
-A page that mimics "leetcode"
+A page that mimics "leetcode".
