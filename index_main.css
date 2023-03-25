@@ -1,0 +1,48 @@
+.discuss_card {
+  background-color: #168557;
+  width: 330px;
+  height: 152px;
+  padding: 16px;
+}
+.index_body {
+  background-color: #f7f8fa;
+  width: 100%;
+  height: 1500px;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 0 21px;
+}
+.index_body main {
+  background-color: greenyellow;
+  margin: 12px auto 0px;
+  width: 1000px;
+  height: 3000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.index_body main #sec_box {
+  width: 256px;
+  height: 500px;
+  margin-left: 10px;
+  background-color: coral;
+}
+#main_box {
+  width: 734px;
+  height: 2000px;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#main_box .cards {
+  display: flex;
+  width: 734px;
+  height: 152px;
+  justify-content: space-between;
+}
+.article {
+  width: 734px;
+  height: 300px;
+  background-color: #9c2020;
+}
