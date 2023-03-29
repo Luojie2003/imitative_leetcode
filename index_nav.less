@@ -4,7 +4,7 @@
 // }
 
 .all {
-    background-color: #f7f8fa;
+    background-color: #ffffff;
     width: 100%;
     height: 1800px;
     min-width: 992px;
@@ -14,8 +14,11 @@ header {
     /* background-color: rgb(33, 255, 255); */
     // box-shadow: 0px 5px 5px rgb(230, 231, 233);
     box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px, rgba(0, 0, 0, 0.08) 0px 4px 12px;
-    // width: 100%;
+    margin-bottom: 12px;
+    
     padding: 0 0 0 21px;
+    z-index: 9;
+
     .header {
         width: 1152px;
         height: 100%;
@@ -48,7 +51,7 @@ header {
                         font-family: "PingFang SC";
                         font-size: 16px;
                         text-decoration: none;
-                        color: black;
+                        color: rgb(92, 92, 92);
                         text-align: center;
                         font-weight: 400;
                         // cursor: pointer;
@@ -89,12 +92,32 @@ header {
 
 
 .nav_right {
-    display: flex;
     .vip_btn {
         background-color: #0000000D;
+        color: #ffa116;
+        border: none;
         width: 81px;
         height: 32px;
-        margin: 0 10px 0 0 ;
+        // margin: 0 10px 0 0 ;
         padding: 1px 6px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    .company_version {
+        background-color: transparent;
+        color: rgb(0, 122, 255);
+        border: solid 1px;
+        width: 52px;
+        height: 28px;
+        border-radius: 3px;
+        // span {
+            
+        // }
+    }
+    .svg_phone {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        color: rgba(rgb(45,181,93), 1);
     }
 }

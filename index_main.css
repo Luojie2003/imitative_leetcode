@@ -1,21 +1,20 @@
-.discuss_card {
-  background-color: #168557;
-  width: 330px;
-  height: 152px;
-  padding: 16px;
+body {
+  overflow: hidden;
+}
+.all {
+  overflow: auto;
+  background-color: #0f43ab;
 }
 .index_body {
   background-color: #f7f8fa;
   width: 100%;
-  height: 1500px;
   display: flex;
   justify-content: center;
   padding: 0 0 0 21px;
 }
 .index_body main {
   background-color: greenyellow;
-  margin: 12px auto 0px;
-  width: 1000px;
+  margin: 0 auto 0px;
   height: 3000px;
   display: flex;
   flex-direction: row;
@@ -29,7 +28,6 @@
 }
 #main_box {
   width: 734px;
-  height: 2000px;
   background-color: aqua;
   display: flex;
   flex-wrap: wrap;
@@ -39,10 +37,29 @@
   display: flex;
   width: 734px;
   height: 152px;
+  background-color: #ffffff;
   justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px, rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
-.article {
+#main_box .cards .discuss_card {
+  background-color: #168557;
+  width: 330px;
+  border-radius: 8px;
+  padding: 16px;
+}
+#main_box #ad_lccup_box {
+  margin-top: 10px;
+}
+#main_box #ad_lccup_box a img {
+  border-radius: 13px;
+  width: 100%;
+}
+.articles {
   width: 734px;
   height: 300px;
   background-color: #9c2020;
+  margin-top: 12px;
+}
+.articles #companys {
+  background-color: #0f43ab;
 }
