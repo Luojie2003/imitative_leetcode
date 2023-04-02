@@ -8,10 +8,12 @@
     <style>* { margin: 0;padding: 0;}</style>
     <link rel="stylesheet" href="index_main.css">
     <link rel="stylesheet" href="index_nav.css">
+    <link rel="stylesheet" href="secbox.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 <body>
     <div class="all">
-        <header>
+        <header id = "top_header">
             <nav class="header">
                 <div class="nav_left">
                     <ul class="nav_item">
@@ -21,10 +23,18 @@
                         <li><a href="javascript:;">竞赛</a></li>
                         <li><a href="javascript:;">讨论</a></li>
                         <li><a href="javascript:;">求职</a></li>
-                        <li class="shop"><a href="javascript:;">
+                        <li class="shop">
+                        <a href="javascript:;">
                             <div>
                             商店
-                            <img src="imgs/down arrow.svg" alt="" class="icon"></div>
+                            <!-- <img src="imgs/down arrow.svg" alt="" class="icon"></div> -->
+                            <svg t="1679553589272" class="icon" viewBox="0 512 1024 1024" version="1.1" 
+                            xmlns="http://www.w3.org/2000/svg" p-id="2745" width="200" height="200"><path 
+                            d="M946.986 372.374L558.08 797.651a61.202 61.202 0 0 1-45.972 20.801 61.202 61.202 
+                            0 0 1-45.976-20.801L77.226 372.374c-18.985-20.052-24.852-49.279-15.04-75.093s33.
+                            493-43.84 61.014-46.292h777.494c27.627 2.347 51.412 20.265 61.226 46.187 9.92 25.
+                            92 4.054 55.038-14.934 75.198z" p-id="2746" data-spm-anchor-id="a313x.7781069.0.
+                            i0"></path></svg>
                         </a></li>
                         
                     </ul>
@@ -38,9 +48,15 @@
                         <span>企业版</span>
                     </button>
                     <a href="javascript:;">
-                        <!-- <svg  -->
-                        <img src="imgs/mobile phone.svg" class="svg_phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" id ="svg_phone"><path fill-rule="evenodd" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V5zm2 1a1 1 0 011-1h8a1 1 0 011 1v10a1 1 0 01-1 1H8a1 1 0 01-1-1V6zm5 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                        <!-- <img src="imgs/mobile phone.svg" id ="svg_phone"> -->
                     </a>
+                    <div class="shuxian"></div>
+                    <div id="authlinks">
+                        <a href="#">注册</a>
+                        <div>或</div>
+                        <a href="#">登录</a>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -49,10 +65,55 @@
                 <div id="main_box">
                     <div class="cards">
                         <div id="left_card" class="discuss_card">
-                            1
+                            <header>
+                                <span>笔试技巧知多少 2 | 笔试备考指南</span>
+                                <span class="hot_dis">热议中</span>
+                            </header>
+                            <div>
+                                点击标签栏里的 「暖春 Offer 计划」 标签或点击头图，可以进入完整专栏↗️ 嘿，又是我
+                                还记得咱们上…
+                            </div>
+                            <footer>
+                                <span>
+                                    <div><img src="imgs/users_icon/avatar_1634795104.webp" class="user_icon"></div>
+                                    <div><img src="imgs/users_icon/avatar_1668100586.webp" class="user_icon"></div>
+                                    <div><img src="imgs/users_icon/default-avatar-1.8547304a.webp" class="user_icon"></div>
+                                    <div><img src="imgs/users_icon/default-avatar-1.8547304a.webp" class="user_icon"></div>
+                                </span>
+                                <span class="users_num">
+                                   3.1K 用户正在围观
+                                </span>
+                                <span class="enter_to_dis">
+                                    进入讨论
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M12.293 16.293L16.586 12l-4.293-4.293a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414zM9.586 12L5.293 7.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L9.586 12z" clip-rule="evenodd"></path></svg>
+                                </span>
+                            </footer>
                         </div>
                         <div id="right_card" class="discuss_card">
-                            2
+                            <header>
+                                <span>招聘交流｜请问现在真是互联网寒冰…</span>
+                                <span class="hot_dis">热议中</span>
+                                
+                            </header>
+                            <div>
+                                本人材料小硕，科研方向需要一些靠自己写的图像处理程序，自己慢慢学后，慢慢对编程产生了兴趣。…
+                            </div>
+                            <footer>
+                                <span>
+                                    <div><img src="imgs/users_icon/avatar_1634795104.webp" class="user_icon"></div>
+                                    <div><img src="imgs/users_icon/avatar_1668100586.webp" class="user_icon"></div>
+                                    <div><img src="imgs/users_icon/default-avatar-1.8547304a.webp" class="user_icon"></div>
+                                    <div><img src="imgs/users_icon/default-avatar-1.8547304a.webp" class="user_icon"></div>
+                                </span>
+                                <span class="users_num">
+                                   18.9K 用户正在围观
+                                </span>
+                                <span class="enter_to_dis">
+                                    进入讨论
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M12.293 16.293L16.586 12l-4.293-4.293a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414zM9.586 12L5.293 7.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L9.586 12z" clip-rule="evenodd"></path></svg>
+                                </span>
+
+                            </footer>
                         </div>
                     </div>
                     <div id="ad_lccup_box">
@@ -62,8 +123,16 @@
                     <div class="articles">
                         <div id="companys">
                             <header>
-                                名企面试题
+                                <div>名企面试题</div>
+                                <div>更多</div>
+                                
                             </header>
+                            <div class="company_boxs">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,7 +140,39 @@
                 
 
 
-                <div id="sec_box">secbox</div>
+                <div id="sec_box">
+                    <div id="search_box">
+                    </div>
+                    <div class="slider">
+                        <div id="my-slider1" class="slider-list">
+                        <ul>
+                            <li class="slider_list__item_selected">
+                                <img src="imgs/1671092984.png">
+                            </li>
+                            <li class="slider_list__item">
+                                <img src="imgs/1675332316.png" alt="">
+                            </li>
+                            <li class="slider_list__item">
+                                <img src="imgs/1680174411.png" alt="">
+                            </li>
+                            <!-- <li class="slider_list__item">
+                                <img src="imgs/lccup'23.webp" alt="">
+                            </li> -->
+                        </ul>
+                        </div>
+                    </div>
+                    <script src="scripts/slider.js"> </script>
+
+
+                    <div id="my-slider2" class="slider-list slider" >
+                        <img src="imgs/weekend_content.webp" alt="">
+                    </div>
+                    <div id="chat1" >
+                        
+                    </div>
+
+
+                </div>
             </main>
         </div>
         

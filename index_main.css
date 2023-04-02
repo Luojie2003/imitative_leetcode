@@ -3,32 +3,23 @@ body {
 }
 .all {
   overflow: auto;
-  background-color: #0f43ab;
+  background-color: #f7f8fa;
 }
 .index_body {
-  background-color: #f7f8fa;
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 0 0 0 21px;
 }
 .index_body main {
-  background-color: greenyellow;
   margin: 0 auto 0px;
   height: 3000px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.index_body main #sec_box {
-  width: 256px;
-  height: 500px;
-  margin-left: 10px;
-  background-color: coral;
-}
 #main_box {
   width: 734px;
-  background-color: aqua;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -37,18 +28,74 @@ body {
   display: flex;
   width: 734px;
   height: 152px;
-  background-color: #ffffff;
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px, rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 #main_box .cards .discuss_card {
-  background-color: #168557;
   width: 330px;
+  background-color: #fff;
   border-radius: 8px;
   padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px, rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  box-shadow: 0 2px 8px rgba(var(0, 0, 0), 0.08), 0 1px 2px rgba(var(0, 0, 0), 0.1);
+}
+#main_box .cards .discuss_card header {
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+#main_box .cards .discuss_card header span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+#main_box .cards .discuss_card header .hot_dis {
+  color: #ffa116;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #fff1dc;
+  border-radius: 12px;
+  padding: 2px 8px;
+}
+#main_box .cards .discuss_card div {
+  margin: 16px 0;
+  font-size: 14px;
+  color: #5c5c5c;
+  height: 40px;
+}
+#main_box .cards .discuss_card footer {
+  padding: 3px 0;
+  height: 18px;
+  align-items: center;
+  display: flex;
+}
+#main_box .cards .discuss_card footer span {
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+#main_box .cards .discuss_card footer span div {
+  height: 18px;
+}
+#main_box .cards .discuss_card footer span .user_icon {
+  height: 14px;
+  width: 14px;
+}
+#main_box .cards .discuss_card footer .users_num {
+  margin-left: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8c8c8c;
+}
+#main_box .cards .discuss_card footer .enter_to_dis {
+  color: #007aff;
+  margin-left: 90px;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
 }
 #main_box #ad_lccup_box {
-  margin-top: 10px;
+  margin-top: 12px;
+  display: block;
 }
 #main_box #ad_lccup_box a img {
   border-radius: 13px;
@@ -58,8 +105,12 @@ body {
   width: 734px;
   height: 300px;
   background-color: #9c2020;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .articles #companys {
   background-color: #0f43ab;
+}
+.articles #companys header {
+  display: flex;
+  justify-content: space-between;
 }
