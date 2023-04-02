@@ -1,8 +1,8 @@
-body {
-  overflow: hidden;
+.shadows {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 .all {
-  overflow: auto;
   background-color: #f7f8fa;
 }
 .index_body {
@@ -13,7 +13,7 @@ body {
 }
 .index_body main {
   margin: 0 auto 0px;
-  height: 3000px;
+  height: 1500px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,17 +100,4 @@ body {
 #main_box #ad_lccup_box a img {
   border-radius: 13px;
   width: 100%;
-}
-.articles {
-  width: 734px;
-  height: 300px;
-  background-color: #9c2020;
-  margin-top: 10px;
-}
-.articles #companys {
-  background-color: #0f43ab;
-}
-.articles #companys header {
-  display: flex;
-  justify-content: space-between;
 }

@@ -1,0 +1,122 @@
+#articles {
+  width: 702px;
+  padding: 16px;
+  height: 1000px;
+  background-color: #9c2020;
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+#articles .line {
+  width: 734px;
+  height: 0.8px;
+  margin-left: -16px;
+  margin-bottom: 0px;
+  background-color: #f2f3f4;
+}
+#articles .time_gone {
+  color: #dfdfdf;
+  font-size: 12px;
+  line-height: 18px;
+}
+#articles .cmp {
+  height: 220px;
+  margin-bottom: 16px;
+}
+#articles .cmp #companys header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 22px;
+}
+#articles .cmp #companys header div {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  height: 22px;
+}
+#articles .cmp #companys header svg {
+  width: 22px;
+  padding: 3px;
+  border-radius: 11px;
+  margin-right: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#articles .cmp #companys header .more_companys {
+  text-decoration: none;
+  color: #a7a7a8;
+  position: absolute;
+  right: 4px;
+  font-size: 12px;
+  line-height: 17px;
+}
+#articles .cmp #companys .company_boxs {
+  width: 702px;
+  height: 198px;
+  background-color: #fff;
+  background-color: #0f43ab;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#articles .article_box {
+  height: 121.5px;
+  padding: 16px 0;
+  margin-bottom: 0px;
+}
+#articles .article_box header {
+  height: 23.5px;
+  display: flex;
+  justify-content: space-between;
+}
+#articles .article_box header div {
+  height: 22px;
+}
+#articles .article_box header .left_tt {
+  display: flex;
+  margin-bottom: 0px;
+}
+#articles .article_box header .left_tt div {
+  margin-bottom: 0px;
+}
+#articles .article_box header .ques_users_icon img {
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+#articles .article_box .article_main_txt {
+  font-size: 14px;
+  line-height: 20px;
+  color: #8a8a8e;
+  margin: 16px 0px 18px;
+}
+#articles .article_box .article_footer {
+  height: 24px;
+  font-size: 12px;
+  display: flex;
+}
+#articles .article_box .article_footer .icon_dis {
+  height: 20px;
+  line-height: 20px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-right: 10px;
+  color: #2db55d;
+  background-color: #e0f4e7;
+}
+#articles .article_box .article_footer .icon_dis svg {
+  vertical-align: text-bottom;
+  width: 14px;
+  height: 14px;
+}
+#articles .article_box .article_footer .tag_ques {
+  padding: 2px 8px;
+  font-size: 12px;
+  text-decoration: none;
+  height: 24px;
+  line-height: 20px;
+  margin-right: 10px;
+  border-radius: 12px;
+  background-color: #f2f3f4;
+  color: #85858a;
+}

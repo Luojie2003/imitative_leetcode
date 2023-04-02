@@ -1,3 +1,8 @@
+.chats {
+  width: 256px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
 #sec_box {
   width: 256px;
   height: 500px;
@@ -21,10 +26,82 @@
 }
 #sec_box #chat1 {
   background: #fff;
-  background-color: blue;
   width: 224px;
   height: 36px;
   margin-bottom: 10px;
   padding: 16px;
+  border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+#sec_box #chat1 a {
+  height: 100%;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+#sec_box #chat1 a span {
+  display: flex;
+  align-items: center;
+}
+#sec_box #chat1 a span svg {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 5px;
+}
+#sec_box #chat1 #ct1 span {
+  color: #2db55d;
+}
+#sec_box #chat1 #ct1 span .svg_chat1_ct1 {
+  background: #2db55d;
+  box-shadow: rgba(0, 255, 90, 0.2) 0px 4px 12px;
+}
+#sec_box #chat1 #ct2 span {
+  color: #af52de;
+}
+#sec_box #chat1 #ct2 span .svg_chat1_ct2 {
+  background: #af52de;
+  box-shadow: rgba(204, 103, 255, 0.4) 0px 4px 12px;
+}
+#sec_box #chat2 div,
+#sec_box #chat3 div {
+  padding: 16px 16px 4px;
+}
+#sec_box #chat2 div header,
+#sec_box #chat3 div header {
+  color: #5c5c5c;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+#sec_box #chat2 div div,
+#sec_box #chat3 div div {
+  padding: 0;
+  margin-top: 10px;
+}
+#sec_box #chat2 div div div,
+#sec_box #chat3 div div div {
+  margin-top: 0px;
+  padding: 6px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+#sec_box #chat2 div div div div,
+#sec_box #chat3 div div div div {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0px;
+  margin: 0px;
+  color: #bebec1;
+  margin-top: 2px;
+}
+#sec_box #chat3 div {
+  padding: 16px 16px 4px;
 }

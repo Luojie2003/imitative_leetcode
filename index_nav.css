@@ -1,6 +1,5 @@
 .all {
   width: 100%;
-  height: 1800px;
   min-width: 992px;
 }
 #top_header {
@@ -46,15 +45,27 @@
   text-align: center;
   font-weight: 400;
 }
-#top_header .header .nav_left .nav_item li a .icon {
-  width: 20px;
-  height: 24px;
-}
 #top_header .header .nav_left .nav_item .shop {
+  width: 62.5px;
+  height: 24px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: #ffa119;
 }
-#top_header .header .nav_left .nav_item .icon {
+#top_header .header .nav_left .nav_item .shop div {
+  color: #ffa119;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#top_header .header .nav_left .nav_item .shop div .svg_shop_icon {
+  color: #ffa119;
+  fill: currentcolor;
+}
+#top_header .header .nav_left .nav_item .icon_logo {
   height: 24px;
   width: 62.5px;
   margin-left: 0;
